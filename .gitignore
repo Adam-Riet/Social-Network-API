@@ -1,0 +1,52 @@
+# dependencies
+/node_modules
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# runtime data
+pids
+*.pid
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+# directories used by tools like mocha
+/coverage
+
+# nyc test coverage
+.nyc_output
+
+# dotenv environment variable files
+.env
+.env.test
+
+# next.js build output
+/.next
+
+# dist directory for compiled files
+/dist
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
