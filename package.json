@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Adam-Riet/Social-Network-API#readme",
   "dependencies": {
+    "date-fns": "^2.30.0",
     "express": "^4.18.2",
     "mongoose": "^7.3.1"
   }
