@@ -29,7 +29,7 @@ This project showcases a Social Network API that enables users to simulate the f
 
 ## Demo
 
-A video demonstrating the different routes in action can be found [here](<insert link here>).
+A video demonstrating the different routes in action can be found [here](https://drive.google.com/file/d/153skFfIlP18vh7-aEpT_c3bwW8RqMj2g/view?usp=sharing).
 
 ## Dependencies
 
