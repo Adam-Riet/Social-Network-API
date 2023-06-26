@@ -35,13 +35,15 @@ module.exports = {
     },
     async deleteUser(req, res) {
         try {
-            const userData = await User.delete({ _id: req.params.id });
+            const userData = await User.findByIdAndDelete(req.params.id);
             if (!userData) {
                 res.status(404).json({ message: 'No user with this id!' });
                 return;
             }
+            res.status(200).json({ message: 'User successfully deleted!' });
         } catch (err) {
-            res.status(400).json(err);
+            console.error(err);
+            res.status(400).json({ message: 'Error occurred', error: err });
         }
     },
     addFriend: async (req, res) => {
